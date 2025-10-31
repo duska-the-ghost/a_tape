@@ -10,7 +10,29 @@ Repository: https://github.com/duska-the-ghost/a_tape
 ---
 
 ## 1. Overview
-<!-- TODO: Add project summary, intent, and audience -->
+'a_tape' is a Norns script designed to provide real-time control of two Whimsical Raps W/ (wtape) modules using a Monome Grid and Monome Crow. The script enables independent or synchronized (broadcast) tape operations such as play, reverse, looping, overdubbing, monitoring, recording, and parameter control via the Flora 'w_slash' library interface.
+
+The goal of the project is to create a clear, performant, and musically expressive interface for dual-W/ control that allows users to treat the two tape modules as independent sound sources or as a linked stereo or mirrored system. The grid interface acts as the primary performance surface, while the Norns screen provides state feedback and parameter context. All communication with the W/ modules is handled over i2c via Crow.
+
+This project is being developed as an open-source tool for the Norns and modular community, and the technical specification is intended to:
+
+- Document the system architecture and interaction flow
+
+- Establish a maintainable structure for future contributors
+
+- Define feature expectations and control logic before full implementation
+
+- Serve as reference material for users who want to fork, extend, or port the script
+
+The intended audience for this document includes:
+
+- Developers contributing to the project
+
+- Norns users who want to understand or customize the internal behavior
+
+- Hardware users looking to integrate two W/ modules with performance controls
+
+- Anyone studying Lua-based Norns scripts as part of learning the ecosystem
 
 ---
 
